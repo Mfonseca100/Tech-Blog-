@@ -28,6 +28,7 @@ html {
   h1 {
     font-size: 2em;
     margin: 0.67em 0;
+    font-family: 'Amatic SC', cursive;
   }
   
   /* Grouping content
@@ -973,12 +974,12 @@ html {
     border: 1px solid transparent;
     outline: none;
     color: #1a1a1a;
-    background-color: #aeaeae;
+    background-color: #ff00d479;
     transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
   }
   
   .btn:hover {
-    background-color: #cecece;
+    background-color: #efdfdf;
   }
   
   .btn.btn-squared {
@@ -1043,7 +1044,7 @@ html {
   }
   
   .btn.btn-dark:hover {
-    background-color: #5f5f5f;
+    background-color: #ea60ff;
   }
   
   .btn.btn-white {
@@ -1061,7 +1062,7 @@ html {
   }
   
   .btn.btn-black:hover {
-    background-color: #666666;
+    background-color: #fb59f0ed;
   }
   
   .btn.btn-link {
@@ -1080,8 +1081,8 @@ html {
   
   .card .card-header {
     padding: 0.375rem;
-    background-color: #2d3e50;
-    color: #d9e9e8;
+    background-color: #f382ff;
+    color: #f982fb;
   }
   
   .card .card-body {
@@ -1139,7 +1140,7 @@ html {
     background-color: #ffffff;
     margin: 0.625rem 0;
     font-size: 1.2rem;
-    border: 1px solid #484848;
+    border: 1px solid #fb09ff;
     border-radius: 0.3rem;
   }
   

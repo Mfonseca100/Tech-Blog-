@@ -1,4 +1,4 @@
-# 14 Model-View-Controller (MVC): Tech Blog
+#  Tech Blog
 
 ## Your Task
 
@@ -52,5 +52,13 @@ WHEN I am idle on the site for more than a set time
 THEN I am able to view posts and comments but I am prompted to log in again before I can add, update, or delete posts
 ```
 
+
+## Get Started 
+
+Your application’s folder structure must follow the Model-View-Controller paradigm. You’ll need to use the express-handlebars package to implement Handlebars.js for your Views, use the MySQL2 and Sequelize packages to connect to a MySQL database for your Models, and create an Express.js API for your Controllers.
+
+You’ll also need the dotenv package to use environment variables, the bcrypt package to hash passwords, and the express-session and connect-session-sequelize packages to add authentication.
+
 ## Mock-Up
 
+[![WalkThroughVideo](https://img.youtube.com/vi/tdaA0JVAUO4/0.jpg)](https://www.youtube.com/watch?v=tdaA0JVAUO4)
