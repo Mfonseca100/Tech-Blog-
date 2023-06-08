@@ -38,15 +38,15 @@ router.get('/signup', async (req, res) => {
 
 router.get('/profile/:id', async (req, res) => {
     try {
-        const postData = await Post.findByPk(req.params.id);
-        if (!postData) {
-            res.status(404).json({ message: 'No post with this id!' });
-            return;
-        }
-        const users = usersData.get({ plain: true });
-        res.render('profile', users);
+      const postData = await Post.findByPk(req.params.id);
+      if (!postData) {
+        res.status(404).json({ message: 'No post with this id!' });
+        return;
+      }
+      const post = postData.get({ plain: true });
+      res.render('profile', { post });
     } catch (err) {
-        res.status(500).json(err);
-    };
-});
+      res.status(500).json(err);
+    }
+  });
 module.exports = router;
