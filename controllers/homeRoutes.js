@@ -20,10 +20,10 @@ router.get('/profile', withAuth, async (req, res) => {
     }
 });
 
-router.get('/login', (req, res) => {
+router.get('/', (req, res) => {
     // If a session exists, redirect the request to the homepage
     if (req.session.logged_in) {
-        res.redirect('/');
+        res.redirect('/profile');
         return;
     }
     res.render('login');
